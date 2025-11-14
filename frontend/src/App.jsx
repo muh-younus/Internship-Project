@@ -1,18 +1,22 @@
 import { useState } from 'react'
 import React from 'react'
-import Header from './components/header/Header.jsx'
+import Header from './components/header/Header0.jsx'
 import Header1 from './components/header/header1.jsx'
+import Herosection from './components/herosection/Herosection.jsx'
+import Section1 from './components/herosection/Section1.jsx'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
     <Header />
     <Header1 />
+    <Herosection />
+    <Section1 />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

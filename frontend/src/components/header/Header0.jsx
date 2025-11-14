@@ -7,7 +7,7 @@ import { FaShoppingCart } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa"; 
 
 
-function Header() {
+function Header0() {
   return (
     <>
       <header className="h-[86px] w-full bg-white p-5 flex flex-row  justify-around items-center">
@@ -74,4 +74,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Header0;
