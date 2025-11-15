@@ -7,7 +7,8 @@ function Herosection() {
     
     <>
     
-    <section className="w-[1180px]  h-[360px] bg-white mx-auto flex flex-row gap-2 mt-2 ">
+    
+    <section className="w-[1180px]  h-[360px] bg-white mx-auto  flex flex-row gap-2 mt-5 rounded ">
         <div
          className="w-[250px] h-[360px] bg-gray100 flex flex-col gap-4 "
          >
@@ -25,7 +26,7 @@ function Herosection() {
         <div className="w-[665px] h-[360px] ">
             <img src={Image} alt="" />
         </div>
-        <div className="w-[240px] h-[350px] flex flex-col gap-1 ml-2">
+        <div className="w-[240px] h-[350px] flex flex-col pl-5  gap-1 ml-2">
             
             <div className="w-[200px] h-[150px] bg-[#CBEFDF] rounded flex flex-col  gap-2 justify-center items-center">
                 <div className="flex flex-row gap-1">

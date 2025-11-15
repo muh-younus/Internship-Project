@@ -6,7 +6,7 @@ import { FaChevronDown } from 'react-icons/fa'
 function header1() {
   return (
     <>
-    <header className="h-[56px] w-full bg-white p-5 flex flex-row   border-t border-b border-[#E6E6E6]">
+    <header className="h-[56px] w-full bg-white p-5 flex flex-row   border-t border-b mb-5 border-[#E6E6E6]">
      
      <div
      className="flex flex-row gap-8 position-relative left-[140px] ml-4 justify-center items-center w-[620px] h-[24px]"

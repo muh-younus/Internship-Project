@@ -13,8 +13,10 @@ function App() {
     <>
     <Header />
     <Header1 />
+      <div className="bg-gray-200 min-h-screen">
     <Herosection />
     <Section1 />
+    </div>
     </>
   );
 }
