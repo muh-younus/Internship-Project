@@ -1,13 +1,14 @@
 import React from "react";
-import Mainimage from "./image/sect1-Background-image.jpg";
-import Sofa from "./image/sofa.png";
-import Lamp from "./image/lamp.png";
-import Foam from "./image/foam.png";
-import Pot from "./image/pot.png";
-import Mixer from "./image/mixer.png";
-import Blender from "./image/blender.png";
-import Appliance from "./image/appliance.jpg";
-import CoffeeMaker from "./image/coffee-maker.png";
+import Mainimage from "./image/section3-mainimage.png";
+import Watch from "./image/watch.png";
+import Phone from "./image/phone.png";
+import Mug from "./image/mug.png";
+import Iphone from "./image/iphone.png";
+import Headphone from "./image/headphone.png";
+import Headphone2 from "./image/headphone2.png";
+import Laptop from "./image/laptop.png";
+import Camera from "./image/camera.png";
+
 
 
 function Section2() {
@@ -18,9 +19,9 @@ function Section2() {
           className="w-[280px] h-full bg-cover bg-left p-5"
           style={{ backgroundImage: `url(${Mainimage})` }}
         >
-          <h2 className="text-[20px] font-weight-[600] font-inter font-bold line-height-[26px] leading-[-0.2px]">
-            Home and
-            <br /> Kitchen
+          <h2 className="text-[20px] font-weight-[600] font-inter font-bold line-height-[26px] mb-3 leading-[-0.2px]">
+            Consumer
+            <br /> electronics and <br/> gadgets
           </h2>
           <button className="w-[123px] h-[40px] font-bold rounded bg-[#FFFFFF]">
             Source now
@@ -33,7 +34,7 @@ function Section2() {
               {/* Text on the left */}
               <div className="flex flex-col justify-start">
                 <p className="text-[16px] font-normal font-inter">
-                  Soft chairs
+                  Smart Watches
                 </p>
                 <p className="text-[#8B96A5] text-[12px] font-normal font-inter">
                   From
@@ -46,8 +47,8 @@ function Section2() {
               <div className="flex flex-col pb-5 justify-end">
                 <img
                   className="w-[82px] h-[82px] object-contain"
-                  src={Sofa}
-                  alt="Sofa"
+                  src={Watch}
+                  alt="Watch"
                 />
               </div>
             </div>
@@ -58,7 +59,7 @@ function Section2() {
               {/* Text on the left */}
               <div className="flex flex-col justify-start">
                 <p className="text-[16px] font-normal font-inter">
-                  Soft & chairs
+                  Cameras
                 </p>
                 <p className="text-[#8B96A5] text-[12px] font-normal font-inter">
                   From
@@ -71,8 +72,8 @@ function Section2() {
               <div className="flex flex-col pb-5 justify-end">
                 <img
                   className="w-[82px] h-[82px] object-contain"
-                  src={Lamp}
-                  alt="Lamp"
+                  src={Camera}
+                  alt="Camera"
                 />
               </div>
             </div>
@@ -82,7 +83,7 @@ function Section2() {
               {/* Text on the left */}
               <div className="flex flex-col justify-start">
                 <p className="text-[16px] font-normal font-inter">
-                  Kitchen Dishes
+                  Headphone
                 </p>
                 <p className="text-[#8B96A5] text-[12px] font-normal font-inter">
                   From
@@ -95,8 +96,8 @@ function Section2() {
               <div className="flex flex-col pb-5 justify-end">
                 <img
                   className="w-[82px] h-[82px] object-contain"
-                  src={Foam}
-                  alt="Foam"
+                  src={Headphone}
+                  alt="Headphone"
                 />
               </div>
             </div>
@@ -119,8 +120,8 @@ function Section2() {
               <div className="flex flex-col pb-5 justify-end">
                 <img
                   className="w-[82px] h-[82px] object-contain"
-                  src={Pot}
-                  alt="Pot"
+                  src={Mug}
+                  alt="Mug"
                 />
               </div>
             </div>
@@ -130,7 +131,7 @@ function Section2() {
               {/* Text on the left */}
               <div className="flex flex-col justify-start">
                 <p className="text-[16px] font-normal font-inter">
-                  Kitchen mixer
+                  Gaming Set
                 </p>
                 <p className="text-[#8B96A5] text-[12px] font-normal font-inter">
                   From
@@ -143,8 +144,8 @@ function Section2() {
               <div className="flex flex-col pb-5 justify-end">
                 <img
                   className="w-[82px] h-[82px] object-contain"
-                  src={Mixer}
-                  alt="Mixer"
+                  src={Headphone}
+                  alt="Headphone"
                 />
               </div>
             </div>
@@ -154,7 +155,7 @@ function Section2() {
               {/* Text on the left */}
               <div className="flex flex-col justify-start">
                 <p className="text-[16px] font-normal font-inter">
-                  Blender
+                  Laptop & PC
                 </p>
                 <p className="text-[#8B96A5] text-[12px] font-normal font-inter">
                   From
@@ -167,8 +168,8 @@ function Section2() {
               <div className="flex flex-col pb-5 justify-end">
                 <img
                   className="w-[82px] h-[82px] object-contain"
-                  src={Blender}
-                  alt="Blender"
+                  src={Laptop}
+                  alt="Laptop"
                 />
               </div>
             </div>
@@ -178,7 +179,7 @@ function Section2() {
               {/* Text on the left */}
               <div className="flex flex-col justify-start">
                 <p className="text-[16px] font-normal font-inter">
-                  Home Appliance
+                  SmartPhone
                 </p>
                 <p className="text-[#8B96A5] text-[12px] font-normal font-inter">
                   From
@@ -191,8 +192,8 @@ function Section2() {
               <div className="flex flex-col pb-5 justify-end">
                 <img
                   className="w-[82px] h-[82px] object-contain"
-                  src={Appliance}
-                  alt="Appliance"
+                  src={Phone}
+                  alt="Phone"
                 />
               </div>
             </div>
@@ -202,7 +203,7 @@ function Section2() {
               {/* Text on the left */}
               <div className="flex flex-col justify-start">
                 <p className="text-[16px] font-normal font-inter">
-                  Coffee Maker
+                  Electric Kettle
                 </p>
                 <p className="text-[#8B96A5] text-[12px] font-normal font-inter">
                   From
@@ -215,8 +216,8 @@ function Section2() {
               <div className="flex flex-col pb-5 justify-end">
                 <img
                   className="w-[82px] h-[82px] object-contain"
-                  src={CoffeeMaker}
-                  alt="CoffeeMaker"
+                  src={Iphone}
+                  alt="Iphone"
                 />
               </div>
             </div>
