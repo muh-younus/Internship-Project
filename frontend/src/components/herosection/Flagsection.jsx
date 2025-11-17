@@ -24,10 +24,10 @@ function Flagsection() {
   ];
 
   return (
-    <section className="w-[1180px] mx-auto mt-8">
-      <h2 className="text-[24px] font-semibold mb-5">Suppliers by region</h2>
+    <section className="w-[1180px] mx-auto mt-8  h-[158px] pb-3">
+      <h2 className="text-[24px] font-semibold mb-3">Suppliers by region</h2>
 
-      <div className="grid grid-cols-5 gap-y-6">
+      <div className="grid grid-cols-5 gap-y-4">
         {suppliers.map((item, index) => (
           <div key={index} className="flex items-center gap-2">
             <img src={item.flag} alt={item.country} className="w-[28px] h-[20px]" />

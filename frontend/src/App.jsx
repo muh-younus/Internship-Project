@@ -11,6 +11,8 @@ import Section4 from './components/herosection/Section4.jsx'
 import Section5 from './components/herosection/Section5.jsx'
 import Section6 from './components/herosection/Section6.jsx'
 import Flagsection from './components/herosection/Flagsection.jsx'
+import Footer from './components/herosection/Footer.jsx'  
+import Mainfooter from './components/herosection/Mainfooter.jsx'
 
 
 
@@ -21,7 +23,7 @@ function App() {
     <>
     <Header />
     <Header1 />
-      <div className="bg-gray-200 min-h-screen">
+      <div className="bg-[#F7FAFC] min-h-screen">
     <Herosection />
     <Section1 />
     <Section2 />
@@ -32,6 +34,8 @@ function App() {
     <Flagsection />
     
     </div>
+    <Footer />
+    <Mainfooter />
     </>
   );
 }
