@@ -7,7 +7,7 @@ import Image4 from "./image/sect4.png";
 function Section6() {
   return (
     <>
-      <section className="w-[1180px] h-[696px] mx-auto mt-5 rounded">
+      <section className="w-[1180px] h-[256px] mx-auto mt-5 rounded">
         <h2 className="text-[24px] font-semibold font-inter mb-4 leading-[32px]">
           Recommended Items
         </h2>

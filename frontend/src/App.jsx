@@ -10,6 +10,7 @@ import Section3 from './components/herosection/Section3.jsx'
 import Section4 from './components/herosection/Section4.jsx'
 import Section5 from './components/herosection/Section5.jsx'
 import Section6 from './components/herosection/Section6.jsx'
+import Flagsection from './components/herosection/Flagsection.jsx'
 
 
 
@@ -28,6 +29,7 @@ function App() {
     <Section4 />
     <Section5 />
     <Section6 />
+    <Flagsection />
     
     </div>
     </>
