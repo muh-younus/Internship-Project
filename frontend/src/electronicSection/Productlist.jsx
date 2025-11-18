@@ -10,6 +10,7 @@ import { Heart } from "lucide-react";
 import { ChevronUp } from 'lucide-react';
 
 
+
 function Productlist() {
   const products = [
     {
@@ -153,13 +154,20 @@ function Productlist() {
 
 
         </div>
-        <div>
+        <div className="flex flex-row gap-4 align-center justify-end my-10">
 
             <div
-            className="w-[94px] mt-10 h-[24px] flex flex-row justify-center items-center  bg-white"
+            className="w-[94px]   flex flex-row justify-center   items-center  bg-white"
             >
-                <p className="text-[16px]">Show 10</p>
+                <p className="text-[16px] mr-2">Show 10</p>
                 <span><ChevronUp size={20} /></span>
+            </div>
+            <div>
+              <span className="text-[16px] border-[0.3px] border-gray-200  bg-white px-3">&lt;</span>
+              <span className="text-[16px] border-[0.3px] border-gray-200  bg-gray-300 px-3">1</span>
+              <span className="text-[16px] border-[0.3px] border-gray-200  bg-white px-3">2</span>
+              <span className="text-[16px] border-[0.3px] border-gray-200  bg-white px-3">3</span>
+              <span className="text-[16px] border-[0.3px] border-gray-200  bg-white px-3">&gt;</span>
             </div>
         </div>
       </div>
