@@ -87,11 +87,7 @@ function Mainfooter() {
 
           
         </div>
-        <div
-        className="w-full h-[80px] bg-gray"
-        >
-<h2>hello</h2>
-        </div>  
+       
        
     
     </>
