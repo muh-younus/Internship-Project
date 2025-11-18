@@ -25,7 +25,7 @@ function Slider() {
   };
   return (
     <>
-      <section className="w-[240px] h-[1448px]  flex flex-col gap-4 py-2 ml-1">
+      <section className="w-[240px] h-[1448px]  flex flex-col gap-6 py-2 ml-1">
         <div>
             <div className="flex flex-row justify-between mb-2">
           <h2 className="text-[16px]  text-[#1C1C1C] font-semibold">Category</h2>
@@ -154,6 +154,8 @@ function Slider() {
         
       </div>
 
+
+
       {/* Min & Max Inputs */}
       <div className="flex justify-between mt-4">
         <div className="flex flex-col">
@@ -179,6 +181,48 @@ function Slider() {
       <button className="mt-4 w-[228px] h-[40px]  text-blue-600 bg-white py-2 rounded-md hover:bg-gray-300 hover:text-white transition">
         Apply
       </button>
+    </div>
+    
+     <div>
+      {/* Header with arrow */}
+      <div className="flex justify-between items-center">
+        <h2 className="font-semibold text-[16px]">Condition</h2>
+        <FiChevronUp className="text-gray-500 text-[18px]" />
+      </div>
+
+      {/* List */}
+      <ul className="mt-3 space-y-3 text-[14px] text-gray-700">
+
+        <li className="flex items-center gap-2">
+          <input type="" className="w-4 h-4 bg-white border border-black rounded-full " />
+          <span>Any</span>
+        </li>
+
+        <li className="flex items-center gap-2">
+          <input type="" className="w-4 h-4 bg-white border border-black rounded-full " />
+          <span>Refurbished</span>
+        </li>
+
+        <li className="flex items-center gap-2">
+          <input type="" className="w-4 h-4 bg-white border border-black rounded-full " />
+          <span>Brand New</span>
+        </li>
+
+        <li className="flex items-center gap-2">
+          <input type="" className="w-4 h-4 bg-white border border-black rounded-full " />
+          <span>Grid items</span>
+        </li>
+
+        
+
+      </ul>
+
+      {/* See All */}
+      <p className="text-blue-500 text-[14px] mt-3 cursor-pointer hover:underline">
+        See all
+      </p>
+      <div className="w-full h-[1px] bg-gray-300"></div>
+
     </div>
      <main className="flex  items-center justify-center ">
       <div className=" ">
