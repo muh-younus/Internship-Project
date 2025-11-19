@@ -14,6 +14,7 @@ import Flagsection from './homePage/herosection/Flagsection.jsx';
 import Footer from './homePage/herosection/Footer.jsx';  
 import Mainfooter from './homePage/herosection/Mainfooter.jsx';
 import Product from './electronicSection/Product.jsx';
+// import Phonesection from './electronicSection/Phonesection.jsx';
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
 
         {/* Product Page */}
         <Route path="/product" element={<Product />} />
+        {/* <Route path="/phone" element = {<Phonesection/>}/> */}
       </Routes>
     </Router>
   );
