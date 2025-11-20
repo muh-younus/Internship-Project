@@ -9,8 +9,33 @@ import Pot from "./image/pot.png"
 import Headphone from "./image/white headphone.png"
 import Mug from "./image/mug.png"
 import Dress from "./image/formal dress.png"
+import { useNavigate } from "react-router-dom";
 
 function Section4() {
+  const navigate = useNavigate();
+
+  const products = [
+  { name: "Shirt", img: Shirt },
+  { name: "Jacket", img: Jacket },
+  { name: "Dress", img: Dress },
+  { name: "Wallet", img: Wallet },
+  { name: "Pot", img: Pot },
+  { name: "Bag", img: Bag },
+  { name: "Jean", img: Jean },
+  { name: "Headphone", img: Headphone },
+  { name: "Pot", img: Pot },
+  { name: "Mug", img: Mug },
+];
+
+  const handleClick =(itemName)=>{
+
+    if (itemName === "Shirt"){
+
+      console.log(itemName)
+      navigate("/cloth")
+      
+    }
+  }
   return (
     <>
       <section className="w-[1180px] h-[696px] mx-auto mt-5 rounded py-1">
@@ -20,10 +45,14 @@ function Section4() {
 
         <div className="grid grid-cols-5 grid-rows-2 gap-4">
 
-          {[Shirt, Jacket, Dress, Wallet, Bag, Jean, Headphone, Bag, Pot, Mug].map((item, index) => (
-            <div key={index} className="w-[220px] h-[310px] bg-white rounded shadow p-3 flex flex-col items-center">
+          {products.map((item, index) => (
+             
+            <div key={index} className="w-[220px] h-[310px] bg-white rounded shadow p-3 flex flex-col items-center cursor-pointer"
+            onClick={()=>handleClick(item.name)}
+            >
               <img 
-                src={item} 
+                src={item.img}
+               
                 alt={`Item ${index + 1}`} 
                 className="w-[150px] h-[170px] object-cover rounded mb-[35px] 
                            transition-transform duration-300 ease-in-out transform 
