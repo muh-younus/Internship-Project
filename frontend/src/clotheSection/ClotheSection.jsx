@@ -3,6 +3,7 @@ import Navbar from "../homePage/header/Header0.jsx";
 import Navbar2 from "../homePage/header/header1.jsx";
 import Breadcrumb from "../breadcrumb/Breadcrumb.jsx";
 import Herosection from "./Herosection.jsx";
+import Description from "./Description.jsx";
 
 function ClotheSection() {
   return (
@@ -17,6 +18,7 @@ function ClotheSection() {
           />
         </div>
         <Herosection />
+        <Description />
 
       </div>
     </>
