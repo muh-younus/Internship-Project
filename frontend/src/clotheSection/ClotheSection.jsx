@@ -4,7 +4,9 @@ import Navbar2 from "../homePage/header/header1.jsx";
 import Breadcrumb from "../breadcrumb/Breadcrumb.jsx";
 import Herosection from "./Herosection.jsx";
 import Description from "./Description.jsx";
-
+import Product from "./Product.jsx";
+import Banner from "./Banner.jsx";
+import Footer from "../homePage/herosection/Mainfooter.jsx";
 function ClotheSection() {
   return (
     <>
@@ -19,6 +21,12 @@ function ClotheSection() {
         </div>
         <Herosection />
         <Description />
+        <Product />
+        <Banner />
+        <div className="bg-white">
+        <Footer />
+        </div>
+        
 
       </div>
     </>
