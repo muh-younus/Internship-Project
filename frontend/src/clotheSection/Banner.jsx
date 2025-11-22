@@ -16,7 +16,7 @@ function Banner() {
             Super discount on more than 100 USD
           </h2>
           <p className="text-sm opacity-80">
-            Have you ever finally just write dummy info
+            Have you Ever Finally just write dummy info
           </p>
         </div>
 
