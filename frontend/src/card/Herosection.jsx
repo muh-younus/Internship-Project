@@ -38,6 +38,8 @@ function Herosection() {
         My Cart({Product.length})
       </h2>
 
+      <div className="flex flex row gap-3">
+
       <div className="w-[880px] bg-white rounded border border-[#DEE2E7] p-3 flex flex-col gap-5">
         {Product.map((item, index) => (
           <div key={item.id} className="flex justify-between p-3 border-b border-[#DEE2E7]">
@@ -104,6 +106,19 @@ function Herosection() {
             </div>
           </div>
         ))}
+      </div>
+
+      <div 
+      className=""
+      >
+        <div className="w-[280px] h-[110px] border border-[#E0E0E0] rounded bg-white py-3 px-2   items-center">
+            <p className="text-[16px] font-weight-[400] font-inter text-[#505050]">Have a coupen?</p>
+            <input type="text" className="border rounded border-[#E0E0E0] text-[16px] font-weight-[400] font-inter px-2 py-1  " placeholder="Add coupon " /> 
+            <input type="button" className="border rounded border-[#E0E0E0] text-[16px] text-blue-500 font-weight-[400] font-inter px-2 py-1  " value="Apply " /> 
+        </div>
+        <div></div>
+
+      </div>
       </div>
     </section>
   );
