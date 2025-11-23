@@ -26,9 +26,12 @@ function Herosection() {
           <p className="hover:bg-[#CBEFDF] hover:rounded text-[16px] p-1 leading-[16px]">
             Tools,equipments
           </p>
+          <Link
+            to="/card">
           <p className="hover:bg-[#CBEFDF] hover:rounded text-[16px] p-1 leading-[16px]">
             Sports and outdoor
           </p>
+          </Link>
           <p className="hover:bg-[#CBEFDF] hover:rounded text-[16px] p-1 leading-[16px]">
             Animal and pets
           </p>
