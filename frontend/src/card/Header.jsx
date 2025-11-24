@@ -11,7 +11,7 @@ function Header1() {
   return (
     <>
       <header className="px-10">
-        <div  className="h-[70px] w-full bg-white px-3 flex flex-row  justify-between items-center">        <div className="flex gap-2 w-[150px] pl-5 h-[46px]">
+        <div  className="h-[65px] w-full bg-white px-3 flex flex-row  justify-between items-center">        <div className="flex gap-2 w-[150px] pl-5 h-[46px]">
           <i className="bg-[#0D6EFD] w-[38.26px] shadow-[5px_0_10px_rgba(000,000,000,0.25)] h-[40.17px] rounded-[8px] flex justify-center items-center text-[#FFFFFF]">
             <FaShoppingBag />
           </i>
