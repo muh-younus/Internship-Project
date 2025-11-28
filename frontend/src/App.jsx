@@ -15,6 +15,7 @@ import Footer from './homePage/herosection/Footer.jsx';
 import Mainfooter from './homePage/herosection/Mainfooter.jsx';
 import Product from './electronicSection/Product.jsx';
 import ClotheSection from "./clotheSection/ClotheSection.jsx";
+import Footer1 from "./card/Footer1.jsx"
 import Card from "./card/Card.jsx";
 // import Phonesection from './electronicSection/Phonesection.jsx';
 
@@ -39,6 +40,7 @@ function App() {
             </div>
             <Footer />
             <Mainfooter />
+            <Footer1/>
           </>
         }/>
 

@@ -9,13 +9,13 @@ function Breadcrumb({ paths }) {
         {paths.map((item, index) => (
           <li key={index} className="flex items-center">
             {item.link ? (
-              <Link to={item.link} className="hover:underline">
+              <Link to={item.link} className="hover:underline hover:text-blue-500 text-gray-300">
                 {item.name}
               </Link>
             ) : (
-              <span className="font-semibold">{item.name}</span>
+              <span className="font-semibold text-gray-300">{item.name}</span>
             )}
-            {index < paths.length - 1 && <span className="mx-2">{">"}</span>}
+            {index < paths.length - 1 && <span className="mx-2 text-gray-300">{">"}</span>}
           </li>
         ))}
       </ol>
